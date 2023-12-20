@@ -20,8 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
     "build:ui": "rm -rf build && cd ../client && rm -rf build && npm run build --prod && cp -r build ../server"
   },
   "eslintConfig": {
